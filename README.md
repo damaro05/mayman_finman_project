@@ -28,12 +28,11 @@ python3 -m http.server 8000
 | `src/data.js` | Version 1 proposal copy |
 | `v2/index.html` | Version 2 page structure |
 | `v2/data.js` | **Version 2 proposal copy** |
-| `v2/styles.css` | Version 2 visual direction |
 | `v2/main.js` | Version 2 renderer and interactions |
-| `src/styles.css` | Version 1 design system and shared base styles |
+| `src/styles.css` | Shared visual design for both versions |
 | `src/main.js` | Version 1 renderer and interactions |
 
-The two versions can evolve independently. Version 2 uses the Version 1 stylesheet as a base and overrides it with its own visual direction.
+The two versions share the same colors, typography, spacing and component design while presenting different content.
 
 ## Version 2 positioning
 

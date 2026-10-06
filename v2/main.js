@@ -60,7 +60,7 @@
   });
   nav.addEventListener("click", () => nav.classList.remove("open"));
 
-  let pending = all(".reveal");
+  let pending = all(".reveal, .card, .pillar, .step");
   const reveal = () => {
     const limit = innerHeight ? innerHeight - 50 : Infinity;
     pending = pending.filter((element, index) => {
