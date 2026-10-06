@@ -8,7 +8,7 @@ const brand = {
 const hero = {
   eyebrow: "Digital transformation for growing businesses",
   title: "Your business has evolved. Your systems should too.",
-  subtitle: "We simplify the way your team works and build software that fits — from the first idea to everyday support.",
+  subtitle: "We simplify the way your team works and build software that fits - from the first idea to everyday support.",
   primaryCta: { label: "Tell us what's not working", href: "#contact" },
   secondaryCta: { label: "See what we solve", href: "#solutions" },
   stats: [

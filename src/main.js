@@ -29,7 +29,7 @@
   $$("[data-brand-name]").forEach((el) => (el.textContent = S.brand.name));
   $$("[data-brand-suffix]").forEach((el) => (el.textContent = S.brand.suffix));
   $$("[data-brand-tagline]").forEach((el) => (el.textContent = S.brand.tagline));
-  document.title = `${S.brand.name} ${S.brand.suffix} — ${S.brand.tagline}`;
+  document.title = `${S.brand.name} ${S.brand.suffix} - ${S.brand.tagline}`;
 
   $("#nav").innerHTML = S.nav
     .map((n) => `<a href="${esc(n.href)}">${esc(n.label)}</a>`)
@@ -147,7 +147,7 @@
   const contact = $("[data-contact-link]");
   contact.textContent = `Email ${S.brand.email}`;
   contact.href = `mailto:${S.brand.email}?subject=${encodeURIComponent(
-    `${S.brand.name} ${S.brand.suffix} — proposal feedback`
+    `${S.brand.name} ${S.brand.suffix} - proposal feedback`
   )}`;
 
   /* ---------- Scroll behaviour ---------- */

@@ -1,4 +1,4 @@
-# Consulting Company — Proposal Site
+# Consulting Company - Proposal Site
 
 Two one-page versions with different audiences.
 

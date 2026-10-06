@@ -14,7 +14,7 @@ const hero = {
   eyebrow: "Digital transformation · AI · Blockchain · Cloud",
   title: "We turn operational friction into software you own.",
   subtitle:
-    "We start as your transformation partner — mapping processes, automating the painful parts, and deploying AI and cloud where it actually pays off. Then we productize what we learn into tools you can license, not rebuild.",
+    "We start as your transformation partner - mapping processes, automating the painful parts, and deploying AI and cloud where it actually pays off. Then we productize what we learn into tools you can license, not rebuild.",
   primaryCta: { label: "See the proposal", href: "#thesis" },
   secondaryCta: { label: "Product roadmap", href: "#products" },
   stats: [
@@ -30,7 +30,7 @@ const thesis = {
   body: [
     "Pure consulting is linear: revenue only grows when headcount grows. Pure product is capital-intensive and blind to real customer workflows.",
     "Our model deliberately couples the two. Every engagement is a paid discovery process. When the same problem shows up across three or more clients, it graduates from a custom build into a productized module with its own roadmap, pricing, and support.",
-    "This means our consulting backlog is also our product research pipeline — and our first customers are already paying us.",
+    "This means our consulting backlog is also our product research pipeline - and our first customers are already paying us.",
   ],
   pillars: [
     {
@@ -71,7 +71,7 @@ const services = [
   {
     tag: "AI",
     title: "Applied AI & Data",
-    text: "Pragmatic AI: retrieval-augmented assistants over your own documents, forecasting, classification and agentic workflows — with the governance to pass an audit.",
+    text: "Pragmatic AI: retrieval-augmented assistants over your own documents, forecasting, classification and agentic workflows - with the governance to pass an audit.",
     bullets: [
       "RAG assistants over internal knowledge bases",
       "Document intelligence (OCR, extraction, classification)",
@@ -131,7 +131,7 @@ const products = [
     name: "DocVault",
     pitch: "Document management with an AI layer.",
     text: "Versioned document repository with OCR, automatic classification, retention policies, e-signature and a natural-language search that answers questions instead of returning a file list.",
-    stage: "Phase 1 — MVP",
+    stage: "Phase 1 - MVP",
     features: [
       "Smart intake & auto-classification",
       "Approval workflows and audit trail",
@@ -169,7 +169,7 @@ const products = [
     code: "CRM",
     name: "RelateCRM",
     pitch: "A CRM that knows the delivery side too.",
-    text: "Pipeline, contacts and quotes — connected to projects, documents and invoicing so the handoff from sales to delivery stops being a spreadsheet.",
+    text: "Pipeline, contacts and quotes - connected to projects, documents and invoicing so the handoff from sales to delivery stops being a spreadsheet.",
     stage: "Phase 3",
     features: [
       "Pipeline & activity management",
@@ -182,8 +182,8 @@ const products = [
     code: "FLW",
     name: "FlowStudio",
     pitch: "The automation layer underneath everything.",
-    text: "Low-code workflow and integration builder used internally to deliver client automations — then sold as the extensibility layer for the whole product suite.",
-    stage: "Phase 3 — Platform",
+    text: "Low-code workflow and integration builder used internally to deliver client automations - then sold as the extensibility layer for the whole product suite.",
+    stage: "Phase 3 - Platform",
     features: [
       "Visual workflow designer",
       "Connector library & webhooks",
@@ -229,7 +229,7 @@ const approach = [
   {
     step: "03",
     title: "Scale",
-    text: "Industrialize the pilot: security, integrations, training and adoption. This is where most transformation programs quietly die — we treat it as the main event.",
+    text: "Industrialize the pilot: security, integrations, training and adoption. This is where most transformation programs quietly die - we treat it as the main event.",
   },
   {
     step: "04",
@@ -271,7 +271,7 @@ const openQuestions = {
       note: "Going horizontal is tempting and almost always fatal for a new firm. Picking one industry makes the first product sharper and the sales story credible.",
     },
     {
-      q: "Which product do we build first — and which do we drop?",
+      q: "Which product do we build first - and which do we drop?",
       note: "Six products on a slide is a wish list. Realistically we can fund one MVP. DocVault is the proposed candidate because document pain is universal and it feeds the others.",
     },
     {
