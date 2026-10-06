@@ -1,10 +1,18 @@
-# Consulting Company — Proposal Site (v0.1 draft)
+# Consulting Company — Proposal Site
 
-A one-page site that doubles as a strategy document. Built to open a conversation with the team, not to ship to customers.
+Two one-page proposals for discussing the company's positioning and delivery model.
+
+- **Version 1:** consulting-to-product concept at the repository root
+- **Version 2:** end-to-end digitalization and licensed personalized software under `/v2/`
+
+Live pages after GitHub Pages deploys:
+
+- `https://damaro05.github.io/mayman_finman_project/`
+- `https://damaro05.github.io/mayman_finman_project/v2/`
 
 ## Run it
 
-Open `index.html` in a browser. No build step, no dependencies.
+Open `index.html` or `v2/index.html` in a browser. No build step or dependencies are required.
 
 Optionally, with a local server:
 
@@ -16,46 +24,53 @@ python3 -m http.server 8000
 
 | File | Purpose |
 | --- | --- |
-| `index.html` | Page skeleton and section order |
-| `src/data.js` | **All copy lives here.** Edit this to change the proposal |
-| `src/styles.css` | Design system (colors, type, layout) |
-| `src/main.js` | Renders `data.js` into the page, handles nav/accordion/reveal |
+| `index.html` | Version 1 page structure |
+| `src/data.js` | Version 1 proposal copy |
+| `v2/index.html` | Version 2 page structure |
+| `v2/data.js` | **Version 2 proposal copy** |
+| `src/styles.css` | Shared design system |
+| `src/main.js` | Shared renderer and interactions |
 
-To change wording, pricing, product names or the open questions, only touch `src/data.js`.
+The two versions can evolve independently while sharing the visual design and page behavior.
 
-## What the proposal says
+## Version 2 proposition
 
-**Model:** consulting funds the company, products scale it. Every engagement doubles as paid product discovery. When the same problem appears across 3+ clients it graduates from custom build to a priced module.
+**Market:** businesses that are not yet fully digitalized, with the Dominican Republic as the initial focus and an international, European-inspired outlook on design, privacy, security and delivery quality.
 
-**Practice areas (sellable now):** transformation advisory, applied AI & data, process automation, cloud & platform engineering, blockchain & tokenization, data foundations.
+**Model:** guide each client through the full digitalization process, develop personalized software using reusable solution foundations and provide continued use through a commercial license. The relationship continues after launch through support, maintenance, security updates, upgrades and new features.
 
-**Product suite (proposed):**
+The client receives a working solution and long-term service, not source code and the responsibility to maintain it alone.
 
-| Code | Working name | Domain | Stage |
+**End-to-end services:** digital maturity assessment, process redesign, personalized software delivery, automation and AI, adoption, support, maintenance and continuous improvement.
+
+**Solution foundations:**
+
+| Code | Solution area | Example scope | Delivery |
 | --- | --- | --- | --- |
-| DOC | DocVault | Document management + AI search | Phase 1 (MVP candidate) |
-| PPL | PeopleOps | Employee lifecycle | Phase 2 |
-| FIN | FinFlow | Spend, invoices, cash flow | Phase 2 |
-| CRM | RelateCRM | Pipeline tied to delivery | Phase 3 |
-| FLW | FlowStudio | Low-code automation layer | Phase 3 (platform) |
-| TKN | TokenDesk | Asset tokenization | Exploratory |
+| DOC | Document & records | Digitization, approvals, search and retention | Personalized licensed solution |
+| PPL | People operations | Employee records, onboarding, leave and self-service | Personalized licensed solution |
+| FIN | Finance operations | Invoices, approvals, budgets and cash visibility | Personalized licensed solution |
+| CRM | Customer & sales | Pipeline, follow-up, quotes and customer history | Personalized licensed solution |
+| OPS | Operations & workflow | Cases, tasks, requests and service delivery | Personalized licensed solution |
+| KNW | Knowledge & AI | Secure assistance over approved company knowledge | Advanced licensed module |
 
-All names are placeholders.
+## Decisions to make next
 
-## Decisions to make before v1
+These are also rendered in the Version 2 "Decisions" section:
 
-These are rendered as the "Open questions" section on the page:
-
-1. Which vertical first? (going horizontal is the common failure mode)
-2. Which single product gets MVP funding — and which get cut?
-3. Is blockchain a leading practice or a parked bet?
-4. Build vs. partner/resell line while our own product matures
-5. Target services-to-product revenue ratio per year
-6. IP ownership clauses in client contracts — the productization model depends on them
+1. Select the first Dominican business segment and define its highest-value manual workflow.
+2. Define what the standard license includes: users or sites, hosting, maintenance, support and security updates.
+3. Set the boundary between reusable foundations, configurable workflows and separately priced custom development.
+4. Define realistic support hours, response targets, uptime objectives, backup policy and incident handling.
+5. Decide how to communicate local Dominican understanding and a European quality outlook without implying a legal presence or certifications that do not exist.
+6. Select one first solution capable of producing a measurable reference case in a manageable project.
 
 ## Suggested next steps
 
-- Replace the placeholder brand in `src/data.js` → `brand`
-- Cut the product list down to what one team can actually build
-- Add 2–3 real case studies or pilot targets (currently none — a credibility gap)
-- Decide whether this becomes a public marketing site or stays an internal deck
+1. Interview 5–10 target businesses in the Dominican Republic and document their current workflows, costs, risks and willingness to pay.
+2. Choose one segment and one repeatable workflow for the first pilot instead of marketing all six solution areas equally.
+3. Draft the commercial structure: assessment fee, implementation milestones, license basis, care plan and pricing for new features.
+4. Prepare contract terms covering software ownership, client data, confidentiality, license rights, service levels, termination and data export.
+5. Define the technical operating baseline for hosting, backups, monitoring, security, privacy and disaster recovery.
+6. Deliver one reference implementation and capture measurable before-and-after evidence, a client quote and a short case study.
+7. Replace the placeholder brand and contact details before using Version 2 as a public marketing page.
