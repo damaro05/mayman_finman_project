@@ -1,9 +1,9 @@
 # Consulting Company — Proposal Site
 
-Two one-page proposals for discussing the company's positioning and delivery model.
+Two one-page versions with different audiences.
 
 - **Version 1:** consulting-to-product concept at the repository root
-- **Version 2:** end-to-end digitalization and licensed personalized software under `/v2/`
+- **Version 2:** streamlined, outward-facing sales site under `/v2/`
 
 Live pages after GitHub Pages deploys:
 
@@ -28,35 +28,28 @@ python3 -m http.server 8000
 | `src/data.js` | Version 1 proposal copy |
 | `v2/index.html` | Version 2 page structure |
 | `v2/data.js` | **Version 2 proposal copy** |
-| `src/styles.css` | Shared design system |
-| `src/main.js` | Shared renderer and interactions |
+| `v2/styles.css` | Version 2 visual direction |
+| `v2/main.js` | Version 2 renderer and interactions |
+| `src/styles.css` | Version 1 design system and shared base styles |
+| `src/main.js` | Version 1 renderer and interactions |
 
-The two versions can evolve independently while sharing the visual design and page behavior.
+The two versions can evolve independently. Version 2 uses the Version 1 stylesheet as a base and overrides it with its own visual direction.
 
-## Version 2 proposition
+## Version 2 positioning
 
 **Market:** businesses that are not yet fully digitalized, with the Dominican Republic as the initial focus and an international, European-inspired outlook on design, privacy, security and delivery quality.
 
 **Model:** guide each client through the full digitalization process, develop personalized software using reusable solution foundations and provide continued use through a commercial license. The relationship continues after launch through support, maintenance, security updates, upgrades and new features.
 
-The client receives a working solution and long-term service, not source code and the responsibility to maintain it alone.
+**Public message:** better ways to work. The site leads with client problems and outcomes rather than explaining the internal business model.
 
-**End-to-end services:** digital maturity assessment, process redesign, personalized software delivery, automation and AI, adoption, support, maintenance and continuous improvement.
+**Why choose us:** business-first guidance, software made to fit, one accountable partner and continuous improvement after launch.
 
-**Solution foundations:**
-
-| Code | Solution area | Example scope | Delivery |
-| --- | --- | --- | --- |
-| DOC | Document & records | Digitization, approvals, search and retention | Personalized licensed solution |
-| PPL | People operations | Employee records, onboarding, leave and self-service | Personalized licensed solution |
-| FIN | Finance operations | Invoices, approvals, budgets and cash visibility | Personalized licensed solution |
-| CRM | Customer & sales | Pipeline, follow-up, quotes and customer history | Personalized licensed solution |
-| OPS | Operations & workflow | Cases, tasks, requests and service delivery | Personalized licensed solution |
-| KNW | Knowledge & AI | Secure assistance over approved company knowledge | Advanced licensed module |
+**Client-facing solution areas:** documents and approvals, operations and workflow, customer management, and data-driven decisions.
 
 ## Decisions to make next
 
-These are also rendered in the Version 2 "Decisions" section:
+These remain internal decisions and are intentionally not rendered on the public site:
 
 1. Select the first Dominican business segment and define its highest-value manual workflow.
 2. Define what the standard license includes: users or sites, hosting, maintenance, support and security updates.
